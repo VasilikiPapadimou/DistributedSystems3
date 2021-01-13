@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e457063-11c1-40c0-986a-cc19b965a750" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_3_Client/Lab_3_Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3_Client/Lab_3_Client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab_3_Client/src/lab_3_Client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3_Client/src/lab_3_Client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_3_Client/src/lab_3_Client/ClientMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3_Client/src/lab_3_Client/ClientMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_3_Operations/src/lab_3_Operations/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3_Operations/src/operations/Operations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_3_Operations/src/lab_3_Operations/Rate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3_Operations/src/operations/Rate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_3_Operations/src/lab_3_Operations/Record.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3_Operations/src/operations/Record.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_3_Server/src/lab_3_Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3_Server/src/lab_3_Server/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab_3_Server/src/lab_3_Server/ServerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3_Server/src/lab_3_Server/ServerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab_3_Server/Lab_3_Server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab_3_Server/Lab_3_Server.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +13,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1n0jGGwt0HtThyV261qmkS5UnwY" />
@@ -33,18 +35,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab_3_Server/src/lab_3_Server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lab_3_Server/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\DistributedSystems3\Lab_3_Server\src" />
       <recent name="D:\GitHub\DistributedSystems3\Lab_3_Server\src\lab_3_Server" />
       <recent name="D:\GitHub\DistributedSystems3\Lab_3_Server" />
       <recent name="D:\GitHub\DistributedSystems3\Lab_3_Operations\src\lab_3_Operations" />
       <recent name="D:\GitHub\DistributedSystems3\Lab_3_Operations\src" />
-      <recent name="D:\GitHub\DistributedSystems3\Lab_3_Client\src\lab_3_Client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub\DistributedSystems3\Lab_3_Operations" />
@@ -117,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610533809366</updated>
       <workItem from="1610533813665" duration="15000" />
-      <workItem from="1610533844467" duration="1709000" />
+      <workItem from="1610533844467" duration="2104000" />
     </task>
     <servers />
   </component>
