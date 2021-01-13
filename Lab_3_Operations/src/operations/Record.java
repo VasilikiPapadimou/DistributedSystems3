@@ -66,9 +66,7 @@ public class Record implements Serializable{
         disp+= "Βασικός τραγουδιστής:"+singer+"\n";
         disp+=" Χρόνος σε δευτερόλεπτα:"+timesec/60+":"+(timesec%60<10?"0"+timesec%60:timesec%60);
         // Αν πρόκειτε για τραγούδι μετά από αξιολόγηση εμφανίζει και αυτήν
-        if (avg!=0){
-            disp+="\n Μέση βαθμολογία:"+avg;
-        }
+        if (avg!=0){ disp+="\n Μέση βαθμολογία:"+avg; }
         return disp;
     }
 }

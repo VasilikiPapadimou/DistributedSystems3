@@ -2,13 +2,16 @@
 
 package lab_3_Server;
 
-import java.rmi.*;
-import java.rmi.server.*;
+import operations.Operations;
+import operations.Rate;
+import operations.Record;
+
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import operations.*;
 
 public class Server extends UnicastRemoteObject implements Operations{
     Statement stat;
@@ -27,9 +30,7 @@ public class Server extends UnicastRemoteObject implements Operations{
             stat = conn.createStatement();
             System.out.println ("Database connection established");
             
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(Server.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (SQLException ex) {
+        } catch (ClassNotFoundException | SQLException ex) {
             Logger.getLogger(Server.class.getName()).log(Level.SEVERE, null, ex);
         }
 
@@ -71,8 +72,6 @@ public class Server extends UnicastRemoteObject implements Operations{
         } catch (SQLException ex) {
             Logger.getLogger(Server.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-        
         return false;
     }
     //Αναζήτηση με βάση τον τίτλο τραγουδιού
@@ -90,8 +89,6 @@ public class Server extends UnicastRemoteObject implements Operations{
         } catch (SQLException ex) {
             Logger.getLogger(Server.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-        
         return null;
     }
     //Αναζήτηση με βάση τον τραγουδιστή 
@@ -100,7 +97,6 @@ public class Server extends UnicastRemoteObject implements Operations{
         System.out.println("searchSinger!!!");
         ArrayList<Record> recordslist = new ArrayList();
         ResultSet records;
-        
         try {
             records = stat.executeQuery("SELECT * from songlist where singer='"+singer+"'");
         
@@ -110,8 +106,6 @@ public class Server extends UnicastRemoteObject implements Operations{
         } catch (SQLException ex) {
             Logger.getLogger(Server.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
-        
         return recordslist;
     }
     //Αξιολόγηση Τραγουδιού 
@@ -150,7 +144,6 @@ public class Server extends UnicastRemoteObject implements Operations{
                     // το προσθέτει στην προς επιστροφή λίστα
                     if (avgrecords.getFloat(1)>stars){
                         recordslist.add(new Record(records.getString(1),records.getString(2),records.getString(3),records.getInt(4),avgrecords.getFloat(1)));
-                
                     }
                 }
             }

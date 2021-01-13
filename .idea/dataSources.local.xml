@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="songs" uuid="1db1c83f-5040-420e-a10b-3f64b8046093">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <auth-provider>no-auth</auth-provider>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>

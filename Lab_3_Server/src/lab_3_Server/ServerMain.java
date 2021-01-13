@@ -2,8 +2,9 @@
 
 package lab_3_Server;
 
-import java.rmi.*;
-import java.rmi.registry.*;
+import java.rmi.Naming;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 
 public class ServerMain {
     public static void main(String[] args) {

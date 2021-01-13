@@ -6,9 +6,9 @@ import java.rmi.*;
 import java.util.ArrayList;
 
 public interface Operations extends Remote{
-    public boolean addRecord(Record r) throws RemoteException;
-    public Record searchTitle(String title) throws RemoteException;
-    public ArrayList<Record> searchSinger(String singer) throws RemoteException;
-    public void rateTitle(Rate r) throws RemoteException;
-    public ArrayList<Record> getRecords(int stars) throws RemoteException;
+    boolean addRecord(Record r) throws RemoteException;
+    Record searchTitle(String title) throws RemoteException;
+    ArrayList<Record> searchSinger(String singer) throws RemoteException;
+    void rateTitle(Rate r) throws RemoteException;
+    ArrayList<Record> getRecords(int stars) throws RemoteException;
 }

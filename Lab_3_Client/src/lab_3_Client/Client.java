@@ -44,7 +44,6 @@ public class Client {
                 else if (ep==2){
                     System.out.println("Τιτλος τραγουδιού:");
                     try {
-                        
                         Record r = op.searchTitle(s.nextLine());
                         if (r==null)
                             System.out.println("Το τραγούδι που αναζήτησες δεν βρέθηκε");
@@ -105,24 +104,19 @@ public class Client {
                             System.out.println("Δεν βρέθηκε τραγούδι Με τόσο μεγάλη αξιολόγηση");
                         else{
                             System.out.println("Τραγούδια με μεγάλη αξιολόγηση:");
+
                             // Για κάθε εγγραφή στη λίστα με τα τραγούδια που βρέθηκαν
-                            for(Record r:rs){
-                                System.out.println(r);
-                            }
+                            for(Record r:rs){ System.out.println(r); }
                         }
                     } catch (RemoteException ex) {
                         Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, ex);
                     }
-                        
                 }
                 else
                     System.exit(0);
             }catch(NumberFormatException ex){
                 System.out.println("Δώσε αριθμό για επιλογή");
             }
-                    
         }
-        
     }
-    
 }
