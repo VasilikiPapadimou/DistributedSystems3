@@ -1,4 +1,5 @@
-//icsd14151 Vasiliki Papadimou
+//Vasiliki Papadimou
+
 package lab_3_Client;
 
 import java.net.MalformedURLException;

@@ -1,5 +1,7 @@
-//icsd14151 Vasiliki Papadimou
+//Vasiliki Papadimou
+
 package lab_3_Server;
+
 import java.rmi.*;
 import java.rmi.server.*;
 import java.sql.*;

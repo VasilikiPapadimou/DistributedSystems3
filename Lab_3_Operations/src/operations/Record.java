@@ -1,6 +1,9 @@
-//icsd14151 Vasiliki Papadimou
-package lab_3_Operations;
+//Vasiliki Papadimou
+
+package operations;
+
 import java.io.Serializable;
+
 // Μια εγγραφή-τραγούδι με 3 κατασκευαστές ανάλογα ποιος δημιουργεί την εγγραφή
 public class Record implements Serializable{
     private String title;

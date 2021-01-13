@@ -1,7 +1,10 @@
-//icsd14151 Vasiliki Papadimou
-package lab_3_Operations;
+//Vasiliki Papadimou
+
+package operations;
+
 import java.rmi.*;
 import java.util.ArrayList;
+
 public interface Operations extends Remote{
     public boolean addRecord(Record r) throws RemoteException;
     public Record searchTitle(String title) throws RemoteException;

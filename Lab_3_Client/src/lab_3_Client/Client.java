@@ -1,11 +1,14 @@
-//icsd14151 Vasiliki Papadimou
+//Vasiliki Papadimou
+
 package lab_3_Client;
+
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import operations.*;
+
 public class Client {
     // Σύνδεση με την διεπαφή του server
     Operations op;

@@ -1,6 +1,9 @@
-//icsd14151 Vasiliki Papadimou
-package lab_3_Operations;
+//Vasiliki Papadimou
+
+package operations;
+
 import java.io.Serializable;
+
 // Μία αξιολόγηση τραγουδιού
 public class Rate implements Serializable{
     String user;

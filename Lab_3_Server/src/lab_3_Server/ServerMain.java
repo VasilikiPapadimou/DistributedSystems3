@@ -1,8 +1,10 @@
-//icsd14151 Vasiliki Papadimou
+//Vasiliki Papadimou
+
 package lab_3_Server;
 
 import java.rmi.*;
 import java.rmi.registry.*;
+
 public class ServerMain {
     public static void main(String[] args) {
         try {
